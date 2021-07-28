@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.to-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 24px;
+   
+}
+
+.todos{
+    color: blue;
+}
+
+.remove{
+    text-decoration: line-through;
+}
+
